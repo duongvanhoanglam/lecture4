@@ -4,12 +4,27 @@
 <meta charset="ISO-8859-1">
 <title>Choose</title>
 </head>
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.thead {
+    color: #27408B;
+    
+}
+.sub {
+    color: #87CEFF ;
+
+}
+</style>
 <body>
  <form action="complete.jsp" method="get">
   <table>
    <tr>
-     <th>Processor</th>
-     <th>Accessories</th>
+     <th class="thead">Processor</th>
+     <th class="thead">Accessories</th>
    </tr>
    <tr>
     <td>
@@ -31,7 +46,7 @@
     </td>
    </tr>
    </table>	
-   <button type="submit">PURCHASE</button>
+   <button type="submit" class="sub">PURCHASE</button>
  </form>  
 </body> 
 </html>
